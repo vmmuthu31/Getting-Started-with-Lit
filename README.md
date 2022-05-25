@@ -7,7 +7,7 @@ Lit is Simple Fast Web Components.
 
 To install the lit your environment/project run "npm i lit" in your terminal
 
-# First Module
+# First Custom Component
 1. First of all we import the lit from the lit library
 2. Then we extend our function from the LitElement class
 3. Under our class we define the static properties
