@@ -1,0 +1,32 @@
+/******************************JAVASCRIPT FILE*************************************/
+
+import {html, css, LitElement} from 'lit';
+
+export class Muthu extends LitElement {
+  static styles = css`p { color: blue }`;
+
+  static properties = {
+    name: {type: String},
+  };
+
+  constructor() {
+    super();
+    this.name = 'Somebody';
+  }
+
+  render() {
+    return html`<p>Hello, ${this.name}!</p>`;
+  }
+}
+customElements.define('vm-muthu', Muthu);
+
+/******************************HTML FILE*************************************/
+
+
+<!DOCTYPE html>
+<head>
+  <script type="module" src="./vm-muthu.js"></script>
+</head>
+<body>
+  <vm-muthu name="I am over here"></vm-muthu>
+</body>
