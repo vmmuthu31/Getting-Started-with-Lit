@@ -14,3 +14,7 @@ To install the lit your environment/project run "npm i lit" in your terminal
 4. Under it we create a constructor, and declare the value for the properties with the super keyword
 5. Then we render it in the HTML snippet
 6. Atlast we call our custom component in our HTML file.
+
+
+# Declarative-event-listeners
+In this module A input event is handled to welcome the User
